@@ -1,0 +1,5 @@
+# application.yml (project root or src/main/resources/application.yml)
+midas:
+  kafka:
+    transactions:
+      topic: forage.transactions
