@@ -19,7 +19,7 @@ public class TransactionListener {
     private final List<Float> firstFourAmounts = new ArrayList<>();
 
     @KafkaListener(
-            topics = "",
+            topics = "${midas.transactions.topic}",
             containerFactory = "kafkaListenerContainerFactory"
     )
     public void receive(Transaction tx) {

@@ -1,0 +1,4 @@
+﻿midas:
+  kafka:
+    transactions:
+      topic: forage.transactions
